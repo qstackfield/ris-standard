@@ -121,6 +121,6 @@ Sign-off steps before release:
 
 Checklist applies to:
 
-**RIS v1.0 — January 2025**
+**RIS v1.0 - January 2025**
 
 ---
