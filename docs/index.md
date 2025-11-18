@@ -1,4 +1,4 @@
-# Reasoning Integrity Standard (RIS) — Overview
+# Reasoning Integrity Standard (RIS) - Overview
 Version 1.0  
 Published by Atom Labs  
 © 2025 Atom Labs. All Rights Reserved.
@@ -171,16 +171,14 @@ RIS classification may be referenced in internal documentation, audit reports, v
 
 Organizations citing RIS should use:
 
-Reasoning Integrity Standard (RIS) v1.0  
+**Reasoning Integrity Standard (RIS) v1.0**  
 Atom Labs, 2025  
-https://github.com/<your-public-repo>
+https://github.com/qstackfield/ris-standard
 
 ---
 
 ## 12. Contact
 
-For feedback or contributions, please contact:  
-Atom Labs Standards Division  
-Email: qstackfield@seedcore.io
-
----
+**Atom Labs — Standards Division**  
+Email: lcac@atomlabs.app  
+GitHub: https://github.com/qstackfield
