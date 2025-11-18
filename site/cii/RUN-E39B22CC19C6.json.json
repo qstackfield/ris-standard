@@ -1,9 +1,0 @@
-{
-  "run_id": "RUN-E39B22CC19C6.json",
-  "model_name": "alpha-test-model",
-  "ris_composite": 0.7479,
-  "lcac_trust": 0.604,
-  "lcac_stability": 0.946,
-  "cii_score": 0.73,
-  "cii_level": "CII-2 (Semi-Stable)"
-}
