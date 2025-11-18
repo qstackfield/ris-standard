@@ -1,0 +1,72 @@
+site_name: Reasoning Integrity Standard (RIS)
+site_description: "RIS v1.0 - The Reasoning Integrity Standard published by Atom Labs"
+site_author: "Atom Labs"
+copyright: "© 2025 Atom Labs"
+
+repo_name: "Reasoning-Integrity-Standard"
+repo_url: "https://github.com/<your-repo-here>"
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - navigation.footer
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - codehilite
+  - footnotes
+  - md_in_html
+  - def_list
+  - attr_list
+
+nav:
+  - Overview: RIS_Overview.md
+  - Standard:
+      - "0. Foreword": sections/00-foreword.md
+      - "1. Scope": sections/01-scope.md
+      - "2. Normative References": sections/02-normative-references.md
+      - "3. Fundamental Concepts": sections/03-fundamental-concepts.md
+      - "4. RIS Levels": sections/04-ris-levels.md
+      - "5. Measurement Framework": sections/05-measurement-framework.md
+      - "6. Controls": sections/06-controls.md
+      - "7. Scoring and Conformance": sections/07-scoring-and-conformance.md
+      - "8. Risk Models": sections/08-risk-models.md
+      - "9. Evaluation Methodology": sections/09-evaluation-methodology.md
+      - "10. Audit Guidelines": sections/10-audit-guidelines.md
+      - "11. Reference Implementation": sections/11-reference-implementation.md
+      - "12. Standard Mapping": sections/12-standard-mapping.md
+      - "13. Appendices": sections/13-appendices.md
+  - Supporting Documents:
+      - "RIS Conformance Statement Template": RIS_Conformance_Statement.md
+      - "RIS Evaluation Report Template": RIS_Evaluation_Report_Template.md
+      - "RIS Benchmark Guide": RIS_Benchmark_Guide.md
+      - "RIS Glossary": RIS_Glossary.md
+      - "RIS Change Log": RIS_Change_Log.md
+
+extra:
+  generator: false
