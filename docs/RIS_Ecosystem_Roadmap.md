@@ -35,7 +35,7 @@ Each horizon includes goals for standards, tooling, governance, and ecosystem gr
 
 ---
 
-# 3. Horizon 1 -Foundation (0-6 Months)
+# 3. Horizon 1 - Foundation (0-6 Months)
 
 RIS v1.0 establishes the baseline standard.  
 Key objectives:
