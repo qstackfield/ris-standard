@@ -181,6 +181,6 @@ https://github.com/qstackfield/ris-standard
 
 For feedback, contributions, or participation in the RIS working group, please contact:
 
-**Atom Labs — Standards Division**  
+**Atom Labs - Standards Division**  
 Email: lcac@atomlabs.app  
 GitHub: https://github.com/qstackfield
