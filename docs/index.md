@@ -179,6 +179,6 @@ https://github.com/qstackfield/ris-standard
 
 ## 12. Contact
 
-**Atom Labs — Standards Division**  
+**Atom Labs - Standards Division**  
 Email: lcac@atomlabs.app  
 GitHub: https://github.com/qstackfield
