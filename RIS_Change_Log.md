@@ -94,7 +94,7 @@ Organizations SHOULD:
 # Contact
 
 Atom Labs Standards Division  
-Email: qstackfield@seedcore.io
+Email: RIS@atomlabs.app
 
 ---
 
