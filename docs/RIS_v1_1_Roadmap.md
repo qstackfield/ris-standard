@@ -121,6 +121,6 @@ to propose changes for v1.1.
 
 Draft planning document for:
 
-**RIS v1.1 — Roadmap Proposal**
+**RIS v1.1 - Roadmap Proposal**
 
 ---
