@@ -145,6 +145,6 @@ RIS governance SHALL maintain:
 
 RIS Governance and Standards  
 Atom Labs  
-qstackfield@seedcore.io  
+RIS@atomlabs.app
 
 ---
