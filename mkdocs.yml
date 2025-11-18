@@ -1,34 +1,38 @@
 site_name: Reasoning Integrity Standard (RIS)
-site_description: "RIS v1.0 - The Reasoning Integrity Standard published by Atom Labs"
-site_author: "Atom Labs"
+site_description: "RIS v1.0 - The global standard for reasoning stability, predictability, and structural integrity."
+site_author: "Atom Labs — Standards Division"
 copyright: "© 2025 Atom Labs"
 
 repo_name: "ris-standard"
 repo_url: "https://github.com/qstackfield/ris-standard"
 
+# ============================================================
+#  THEME — AtomLabs Quantum UI
+# ============================================================
 theme:
   name: material
   language: en
 
-  # Branding
   logo: assets/atomlabs-logo.png
   favicon: assets/favicon.png
 
-  # UX / Navigation
   features:
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.sections
     - navigation.top
     - navigation.expand
-    - navigation.footer
     - toc.integrate
+    - navigation.footer
     - content.code.copy
-    - content.tabs.link
+    - content.code.annotate
     - search.suggest
     - search.highlight
     - search.share
+    - content.tabs.link
+    - announce.dismiss
+    - header.autohide
 
-  # Modern light/dark palette
   palette:
     - scheme: default
       primary: indigo
@@ -36,6 +40,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
     - scheme: slate
       primary: indigo
       accent: cyan
@@ -50,24 +55,43 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+# Custom CSS (Quantum polish)
+extra_css:
+  - styles/brand.css
+
+# Optional: custom JS (for hero animations or quantum effects later)
+extra_javascript:
+  - styles/brand.js
+
+# ============================================================
+# PLUGINS
+# ============================================================
 plugins:
   - search
   - minify:
       minify_html: true
+  - tags:
+      tags_file: tags.md
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
   - tables
-  - codehilite
   - footnotes
-  - md_in_html
+  - codehilite
   - def_list
   - attr_list
+  - md_in_html
+  - meta
+  - smarty
 
+# ============================================================
+# NAVIGATION
+# ============================================================
 nav:
-  - Overview: index.md
+  - Overview: Overview.md
+
   - Standard:
       - "0. Foreword": sections/00-foreword.md
       - "1. Scope": sections/01-scope.md
@@ -121,12 +145,19 @@ nav:
       - "RIS Badges": badges/index.md
       - "Cognitive Integrity Index (CII)": cii/index.md
 
+# ============================================================
+# BRAND METADATA
+# ============================================================
 extra:
   generator: false
+
+  profile: "Atom Labs — Standards Division"
+
   social:
     - icon: fontawesome/solid/envelope
       link: mailto:lcac@atomlabs.app
     - icon: fontawesome/brands/github
       link: https://github.com/qstackfield
-  profile: "Atom Labs - Standards Division"
-  copyright: "© 2025 Atom Labs - Reasoning Integrity Standard (RIS)"
+
+  analytics:
+    provider: false   # optional until you want GA or Plausible
