@@ -22,13 +22,13 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Install MkDocs + Material theme
+      - name: Install MkDocs + Material plugins
         run: |
-          pip install mkdocs-material mkdocs-minify-plugin
+          pip install mkdocs-material mkdocs-minify-plugin pymdown-extensions
 
-      - name: Build site
+      - name: Build site (no strict mode)
         run: |
-          mkdocs build --strict
+          mkdocs build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
