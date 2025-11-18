@@ -1,6 +1,6 @@
 # RIS Ecosystem Roadmap
 Reasoning Integrity Standard (RIS)  
-Atom Labs — Strategic Roadmap  
+Atom Labs - Strategic Roadmap  
 Version: 1.0  
 Last Updated: 2025
 
