@@ -45,7 +45,7 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - Overview: RIS_Overview.md
+  - Overview: index.md
   - Standard:
       - "0. Foreword": sections/00-foreword.md
       - "1. Scope": sections/01-scope.md
