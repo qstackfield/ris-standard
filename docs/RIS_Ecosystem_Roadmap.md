@@ -27,15 +27,15 @@ The roadmap outlines major initiatives planned for the RIS ecosystem across mult
 
 The RIS ecosystem roadmap is divided into three horizons:
 
-1. **Horizon 1: Foundation (0–6 months)**  
-2. **Horizon 2: Expansion (6–18 months)**  
-3. **Horizon 3: Maturity (18–36 months)**  
+1. **Horizon 1: Foundation (0-6 months)**  
+2. **Horizon 2: Expansion (6-18 months)**  
+3. **Horizon 3: Maturity (18-36 months)**  
 
 Each horizon includes goals for standards, tooling, governance, and ecosystem growth.
 
 ---
 
-# 3. Horizon 1 — Foundation (0–6 Months)
+# 3. Horizon 1 -Foundation (0-6 Months)
 
 RIS v1.0 establishes the baseline standard.  
 Key objectives:
@@ -65,7 +65,7 @@ Key objectives:
 
 ---
 
-# 4. Horizon 2 — Expansion (6–18 Months)
+# 4. Horizon 2 - Expansion (6-18 Months)
 
 This is where RIS moves from an emerging standard to a widely adopted, auditable framework.
 
@@ -94,7 +94,7 @@ This is where RIS moves from an emerging standard to a widely adopted, auditable
 
 ---
 
-# 5. Horizon 3 — Maturity (18–36 Months)
+# 5. Horizon 3 - Maturity (18-36 Months)
 
 RIS becomes a global reasoning integrity benchmark.
 
