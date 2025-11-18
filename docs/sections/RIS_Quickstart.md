@@ -237,6 +237,6 @@ Included in this repository:
 
 For questions or contributions:  
 Atom Labs Standards Division  
-qstackfield@seedcore.io
+RIS@atomlabs.app
 
 ---
