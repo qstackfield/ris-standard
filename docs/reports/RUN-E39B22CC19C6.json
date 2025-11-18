@@ -1,0 +1,67 @@
+{
+  "run_id": "RUN-E39B22CC19C6",
+  "run_tag": "alpha-multi-smoke",
+  "model_name": "alpha-test-model",
+  "input_file": "/root/ris_test_samples.jsonl",
+  "started_at": "2025-11-18T17:01:20.566382Z",
+  "finished_at": "2025-11-18T17:01:20.686327Z",
+  "sample_count": 2,
+  "successful_evaluations": 2,
+  "evaluation_ids": [
+    "EV-0EE488A494EE",
+    "EV-821E2885975B"
+  ],
+  "aggregate_metrics": {
+    "chain_stability_avg": 0.75,
+    "semantic_coherence_avg": 0.2916,
+    "drift_sensitivity_avg": 0.0,
+    "variance_compliance_avg": 1.0,
+    "composite_score_avg": 0.7479
+  },
+  "ris_level_distribution": {
+    "RIS-2": 2
+  },
+  "final_ris_level": "RIS-2",
+  "composite_score_avg": 0.7479,
+  "requested_ris_level": "RIS-3",
+  "per_evaluation": [
+    {
+      "index": 1,
+      "evaluation_id": "EV-0EE488A494EE",
+      "ris_level": "RIS-2",
+      "composite_score": 0.7375,
+      "metrics": {
+        "chain_stability": 0.75,
+        "semantic_coherence": 0.25,
+        "drift_sensitivity": 0.0,
+        "variance_compliance": 1.0,
+        "boundary_violations": 0,
+        "sample_size": {
+          "baseline_prompts": 1,
+          "perturbation_prompts": 0,
+          "baseline_samples": 1,
+          "perturbation_samples": 0
+        }
+      }
+    },
+    {
+      "index": 2,
+      "evaluation_id": "EV-821E2885975B",
+      "ris_level": "RIS-2",
+      "composite_score": 0.7583,
+      "metrics": {
+        "chain_stability": 0.75,
+        "semantic_coherence": 0.3333,
+        "drift_sensitivity": 0.0,
+        "variance_compliance": 1.0,
+        "boundary_violations": 0,
+        "sample_size": {
+          "baseline_prompts": 1,
+          "perturbation_prompts": 0,
+          "baseline_samples": 1,
+          "perturbation_samples": 0
+        }
+      }
+    }
+  ]
+}
