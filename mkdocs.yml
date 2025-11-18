@@ -9,7 +9,14 @@ repo_url: "https://github.com/qstackfield/ris-standard"
 theme:
   name: material
   language: en
+
+  # Branding
+  logo: assets/atomlabs-logo.png
+  favicon: assets/favicon.png
+
+  # UX / Navigation
   features:
+    - navigation.instant
     - navigation.sections
     - navigation.top
     - navigation.expand
@@ -20,13 +27,28 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+
+  # Modern light/dark palette
   palette:
     - scheme: default
-      primary: blue
-      accent: blue
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
   font:
     text: Inter
     code: JetBrains Mono
+
+  icon:
+    repo: fontawesome/brands/github
 
 plugins:
   - search
@@ -61,6 +83,7 @@ nav:
       - "11. Reference Implementation": sections/11-reference-implementation.md
       - "12. Standard Mapping": sections/12-standard-mapping.md
       - "13. Appendices": sections/13-appendices.md
+
   - Supporting Documents:
       - "RIS Conformance Statement Template": RIS_Conformance_Statement.md
       - "RIS Evaluation Report Template": RIS_Evaluation_Report_Template.md
@@ -91,6 +114,7 @@ nav:
       - "RIS API CICD Integration": RIS_CICD_Integration.md
       - "RIS Header/Footer Templates": RIS_Header_Footer_Templates.md
       - "RIS Citation": RIS_Citation.md
+
   - Analytics:
       - "RIS Reports": reports/index.md
       - "RIS Leaderboard": leaderboard/index.md
@@ -99,3 +123,10 @@ nav:
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:lcac@atomlabs.app
+    - icon: fontawesome/brands/github
+      link: https://github.com/qstackfield
+  profile: "Atom Labs - Standards Division"
+  copyright: "© 2025 Atom Labs - Reasoning Integrity Standard (RIS)"
