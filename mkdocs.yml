@@ -3,8 +3,8 @@ site_description: "RIS v1.0 - The Reasoning Integrity Standard published by Atom
 site_author: "Atom Labs"
 copyright: "© 2025 Atom Labs"
 
-repo_name: "Reasoning-Integrity-Standard"
-repo_url: "https://github.com/<your-repo-here>"
+repo_name: "ris-standard"
+repo_url: "https://github.com/qstackfield/ris-standard"
 
 theme:
   name: material
@@ -67,6 +67,35 @@ nav:
       - "RIS Benchmark Guide": RIS_Benchmark_Guide.md
       - "RIS Glossary": RIS_Glossary.md
       - "RIS Change Log": RIS_Change_Log.md
+      - "RIS Adoption Kit": RIS_Adoption_Kit.md
+      - "RIS Integration Guide": RIS_Integration_Guide.md
+      - "RIS CICD Integration": RIS_CICD_Integration.md
+      - "RIS API Integration Guide": RIS_API_Integration_Guide.md
+      - "RIS Model Card Integration Template": RIS_Model_Card_Integration.md
+      - "RIS SDK Guide": RIS_SDK_Guide.md
+      - "RIS Certification Program": RIS_Certification_Program.md
+      - "RIS Certification Schema": RIS_Certification_Schema.md
+      - "RIS Scorecard Schema": RIS_Scorecard_Schema.md
+      - "RIS Directory Format": RIS_Directory_Format.md
+      - "RIS Governance Charter": RIS_Governance_Charter.md
+      - "RIS Quickstart": RIS_Quickstart.md
+      - "RIS Ecosystem Roadmap": RIS_Ecosystem_Roadmap.md
+      - "RIS Reference Evaluator Guide": RIS_Reference_Evaluator_Guide.md
+      - "RIS Standard Index": RIS_Standard_Index.md
+      - "RIS Release Checklist": RIS_Release_Checklist.md
+      - "RIS Release Manifest": RIS_Release_Manifest.md
+      - "RIS v1.1 Roadmap": RIS_v1_1_Roadmap.md
+      - "RIS Portal API Blueprint": RIS_Portal_API_Blueprint.md
+      - "RIS Portal Layout Spec": RIS_Portal_Layout_Spec.md
+      - "RIS Example Prompt Dataset": RIS_Example_Prompt_Dataset.md
+      - "RIS API CICD Integration": RIS_CICD_Integration.md
+      - "RIS Header/Footer Templates": RIS_Header_Footer_Templates.md
+      - "RIS Citation": RIS_Citation.md
+  - Analytics:
+      - "RIS Reports": reports/index.md
+      - "RIS Leaderboard": leaderboard/index.md
+      - "RIS Badges": badges/index.md
+      - "Cognitive Integrity Index (CII)": cii/index.md
 
 extra:
   generator: false
