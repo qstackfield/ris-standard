@@ -1,0 +1,23 @@
+{
+  "ris_file": "/opt/lcac/reports/ris/RUN-FF4A874998D4.json",
+  "model": "alpha-test",
+  "final_level": "RIS-2",
+  "composite": 0.7479,
+  "started_at": "2025-11-19T22:53:29.739920Z",
+  "finished_at": "2025-11-19T22:53:29.877324Z",
+  "source": "lcac",
+  "final_ris_level": "RIS-2",
+  "composite_score_avg": 0.0,
+  "run_id": "RUN-20251119-1C0914168E",
+  "trust_snapshot": {
+    "trust_score_before": null,
+    "trust_score_after": null,
+    "trust_delta": null,
+    "snapshot_hash": null,
+    "consensus_hash": null,
+    "recommendation": "TBD",
+    "risk_classification": "TBD",
+    "operational_tier": "TBD",
+    "origin": "none"
+  }
+}
