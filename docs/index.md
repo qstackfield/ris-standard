@@ -23,7 +23,7 @@ hide:
 
 ---
 
-# 1. What RIS Is
+# 1. What RIS is
 
 The **Reasoning Integrity Standard (RIS)** is the first formal framework dedicated to measuring the integrity of AI reasoning itself.
 
