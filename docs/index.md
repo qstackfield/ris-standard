@@ -176,7 +176,7 @@ Use this portal to:
 
 - **Review Overview and Concepts**  
   See the narrative introduction in  
-  _Overview → Reasoning Integrity Standard (RIS) — Overview_.
+  _Overview → Reasoning Integrity Standard (RIS) - Overview_.
 
 - **Explore Analytics**  
   View sample and live evaluations under _Analytics_ → Reports, Leaderboard, Badges, and CII.
@@ -204,7 +204,7 @@ This layout allows organizations to go from **benchmark** → **monitor** → **
 
 ---
 
-# 9. Who RIS Is For
+# 9. Who RIS is For
 
 RIS is intended for:
 
