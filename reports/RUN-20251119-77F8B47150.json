@@ -1,0 +1,12 @@
+{
+  "ris_file": "/opt/lcac/reports/ris/RUN-7A519FC3F824.json",
+  "model": "alpha-test",
+  "final_level": "RIS-2",
+  "composite": 0.7479,
+  "started_at": "2025-11-19T22:25:20.279214Z",
+  "finished_at": "2025-11-19T22:25:20.406480Z",
+  "source": "lcac",
+  "final_ris_level": "RIS-2",
+  "composite_score_avg": 0.0,
+  "run_id": "RUN-20251119-77F8B47150"
+}
