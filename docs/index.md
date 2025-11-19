@@ -4,297 +4,278 @@ hide:
   - toc
 ---
 
-<div style="padding:60px 0 40px 0; text-align:center;">
-
-  <img src="assets/atomlabs-logo.png" alt="Atom Labs" style="max-width:140px; margin-bottom:20px; opacity:0.92;" />
-
-  <h1 style="
-      font-size:2.8rem;
-      font-weight:700;
-      margin-bottom:10px;
-      letter-spacing:-0.5px;
-  ">
-    Reasoning Integrity Standard (RIS)
-  </h1>
-
-  <p style="
-      font-size:1.3rem;
-      opacity:0.82;
-      max-width:760px;
-      margin:0 auto;
-      line-height:1.5;
-  ">
-    A formal, measurable standard for evaluating the stability, predictability, and structural reliability
-    of AI reasoning. Developed and maintained by Atom Labs. Built for enterprises, research institutions,
-    regulated sectors, and safety-critical systems.
-  </p>
-
+<div align="center" style="padding-top:40px; padding-bottom:10px;">
+  <img src="assets/atomlabs-logo.png" alt="Atom Labs" style="height:56px; opacity:0.96; margin-bottom:12px;">
 </div>
 
----
+<h1 align="center" style="font-weight:700; font-size:42px; margin-bottom:6px; letter-spacing:-0.4px;">
+  The Global Reasoning Integrity Standard<br>for the Autonomous Age
+</h1>
 
-# Purpose
+<p align="center" style="font-size:18px; color:#555; max-width:780px; margin:0 auto 24px auto; line-height:1.5;">
+  Reasoning Integrity, defined and measurable. RIS provides a formal, enterprise-grade framework for evaluating and governing
+  the stability, predictability, and structural reliability of AI reasoning across models, agents, and cognitive systems.
+</p>
 
-The Reasoning Integrity Standard defines the requirements, controls, and evaluation methodology needed to assess whether an AI system can sustain stable, reproducible reasoning under real operational conditions.
-
-RIS exists because modern AI systems demonstrate:
-
-- variable internal reasoning structure  
-- sensitivity to prompt and context mutation  
-- drift across time, sessions, and tool interactions  
-- instability in multi-step reasoning chains  
-- lack of reproducible evidence for audit and governance  
-
-Existing standards govern security, privacy, and data protection. None govern **reasoning stability**, which is now essential for enterprise adoption, model governance, and regulatory alignment.
-
-RIS v1.0 closes this gap.
+<p align="center" style="font-size:15px; color:#666;">
+  Developed and maintained by <strong>Atom Labs - Standards Division</strong>.
+</p>
 
 ---
 
-# Positioning of RIS
+# 1. What RIS Is
 
-RIS is positioned as:
+The **Reasoning Integrity Standard (RIS)** is the first formal framework dedicated to measuring the integrity of AI reasoning itself.
 
-1. **A formal Reasoning Standard**  
-   – Equivalent in structure to NIST SP-series publications and ISO technical standards.
+Where existing frameworks govern:
 
-2. **A governance and compliance framework**  
-   – Aligns to NIST AI RMF, SOC2, ISO 42001, EU AI Act expectations.
+- security  
+- privacy  
+- compliance  
+- safety  
 
-3. **A complete evaluation and certification platform**  
-   – Backed by the RIS Evaluator, RIS Scorecard Schema, LCAC implementation, and Atom Labs governance toolchain.
+RIS governs **how a system reasons** - whether its internal reasoning process is stable, coherent, bounded, and auditable under real-world conditions.
 
-4. **A future regulatory anchor**  
-   – Intended to become the baseline requirement for AI reasoning stability across industries.
+RIS v1.0 defines:
 
-This combination makes RIS both **a global standard** and **a practical system of record**.
+- a multi-level reasoning integrity model (RIS-0 → RIS-4)  
+- a measurement framework and scoring methodology  
+- mandatory controls and governance requirements  
+- evaluation and audit procedures  
+- a reference implementation (LCAC) and operational pipeline  
 
----
+The objective is simple:
 
-# The RIS Architecture
-
-RIS defines a layered model:
-
-### 1. **The Standard**  
-The formal specification covering levels, controls, scoring, evidence, audit, and risk models.
-
-### 2. **The Evaluator**  
-A deterministic measurement pipeline that produces RIS scorecards, reports, and badges.
-
-### 3. **The LCAC Reference Implementation**  
-LCAC (Least-Context Access Control) operationalizes reasoning governance at scale.  
-It enforces boundaries, measures stability, and integrates with RIS evaluation metrics.
-
-### 4. **The Governor**  
-Atom Labs' cognitive policy engine that monitors drift, stability, and cross-model coherence in real-time.  
-It is capable of:
-
-- continuous scoring  
-- multi-model evaluation  
-- autonomous drift detection  
-- long-horizon reasoning audits  
-- RIS-anchored decision gating  
-
-### 5. **The RIS Portal**  
-A public interface for:
-
-- reviewing RIS documentation  
-- exploring reports  
-- comparing model performance  
-- requesting certification  
-- accessing analytics and scorecards  
-- integrating models into the RIS evaluation pipeline  
-
-These layers together form the **RIS ecosystem**.
+> Make AI reasoning integrity a measurable, reportable, and certifiable property.
 
 ---
 
-# RIS Levels
+# 2. Why RIS Exists
 
-RIS classifies systems into five integrity levels:
+Modern AI systems exhibit powerful but fragile reasoning behaviour:
 
-**RIS-0** - Uncontrolled reasoning  
-**RIS-1** - Drift-sensitive reasoning  
-**RIS-2** - Semi-stable reasoning  
-**RIS-3** - Controlled, production-grade reasoning  
-**RIS-4** - High-integrity reasoning suitable for regulated and safety-critical environments
+- reasoning chains can drift over time and context  
+- identical prompts can produce materially different reasoning paths  
+- multi-agent systems amplify variance and drift  
+- tool calls, memory, and upstream systems influence reasoning in opaque ways  
+- most organizations have no standard way to assess reasoning stability  
 
-Each level includes:
+This creates structural gaps in:
 
-- eligibility thresholds  
+- safety-critical deployments  
+- enterprise risk and governance  
+- procurement and vendor due diligence  
+- model change management and regression testing  
+- regulatory expectations around AI behaviour  
+
+**RIS closes this gap.** It provides a concrete, testable standard for reasoning stability and governance.
+
+---
+
+# 3. RIS in the Atom Labs Ecosystem
+
+RIS is the cornerstone of Atom Labs’ reasoning governance stack:
+
+- **RIS Standard**  
+  Formal specification, controls, levels, and methodology.
+
+- **RIS Evaluator**  
+  Scoring engine and pipeline that executes RIS evaluations and generates scorecards.
+
+- **LCAC (Least-Context Access Control)** - Reference Implementation  
+  Operationalizes reasoning governance, drift analysis, stability thresholds, and scorecard generation.
+
+- **LCAC Governor**  
+  Cognitive policy engine that monitors models in production, tracks drift and variance, and can gate decisions based on RIS-aligned thresholds.
+
+- **RIS Portal**  
+  This documentation + analytics portal, surfacing reports, leaderboards, badges, and CII (Cognitive Integrity Index).
+
+- **RIS Certification & Submission** (v1.1+)  
+  Formalized certification workflows, templates, and checklists for internal and external models.
+
+- **Future Atom Labs Stack**  
+  RIS integrated across Atom Labs systems: LCAC, VANTA OS, Markets Intelligence, Executor Engine, and cognitive observability services.
+
+RIS anchors the entire ecosystem as the **standard of record** for reasoning stability.
+
+---
+
+# 4. RIS Levels
+
+RIS defines five integrity levels:
+
+| Level | Name                                       | Summary                                              |
+|-------|--------------------------------------------|------------------------------------------------------|
+| RIS-0 | Uncontrolled Reasoning                     | No stability guarantees; unsuitable for critical use |
+| RIS-1 | Drift-Sensitive Reasoning                  | Highly sensitive to context and perturbation         |
+| RIS-2 | Semi-Stable Reasoning                      | Partially consistent; acceptable for low-risk flows  |
+| RIS-3 | Controlled, Production-Grade Reasoning     | Stable within defined envelopes; enterprise-ready    |
+| RIS-4 | High-Integrity, Safety-Critical Reasoning  | Strictly controlled; auditable for regulated use     |
+
+Each level carries:
+
+- eligibility criteria  
 - required controls  
-- measurement expectations  
-- stability envelope parameters  
-- evidence requirements  
-- associated governance implications  
+- evidence expectations  
+- variance / drift parameters  
+- governance implications  
+
+Level selection is a **risk decision**, not just a technical metric.
 
 ---
 
-# Measurement Framework
+# 5. Measurement Pillars
 
-RIS measures five categories of reasoning behaviour:
+RIS evaluations cover five core pillars:
 
-### Chain Stability  
-Reliability of multi-step reasoning sequences.
+1. **Chain Stability**  
+   Reliability of multi-step reasoning across sessions, users, and contexts.
 
-### Semantic Coherence  
-Internal consistency and structural soundness of reasoning.
+2. **Semantic Coherence**  
+   Internal logical consistency and structural quality of reasoning outputs.
 
-### Drift Sensitivity  
-Susceptibility to contextual, temporal, and multi-model drift.
+3. **Drift Sensitivity**  
+   How easily reasoning degrades due to time, prompt changes, data shifts, tools, or configuration.
 
-### Variance Envelope  
-Predictability of reasoning across repeated evaluations.
+4. **Variance Envelope Compliance**  
+   Predictability of reasoning within an acceptable variance band under repeated evaluation.
 
-### Boundary Governance  
-Adherence to operational, ethical, and safety boundaries.
+5. **Boundary Governance**  
+   Adherence to defined operational, ethical, and safety boundaries.
+
+Together, these pillars determine whether a system’s reasoning can be trusted in production and regulated environments.
 
 ---
 
-# Evaluation Pipeline
+# 6. RIS Evaluation Pipeline
 
-The RIS evaluation workflow includes:
+A typical RIS evaluation workflow consists of:
 
-1. **Sample ingestion**  
-2. **Baseline stability analysis**  
-3. **Variant perturbation runs**  
+1. **Scenario and sample design**  
+2. **Baseline runs for chain stability**  
+3. **Perturbation runs for drift and variance**  
 4. **Semantic coherence scoring**  
-5. **Drift measurement**  
-6. **Variance envelope validation**  
-7. **Boundary governance checks**  
-8. **Scorecard generation**  
-9. **RIS level assignment**  
-10. **Badge, report, and CII computation**
+5. **Boundary and control checks**  
+6. **Aggregation into RIS metrics and indicators**  
+7. **RIS Level assignment (0-4)**  
+8. **Scorecard and report generation**  
+9. **Optional CII (Cognitive Integrity Index) computation**  
+10. **Publication to RIS Portal or internal systems**
 
-RIS evaluations can be executed:
-
-- via local RIS runner  
-- via Atom Labs RIS Cloud Evaluator  
-- via the LCAC Governor  
-- via the RIS API  
-- inside CI/CD pipelines  
-- on enterprise hosted infrastructure  
+The RIS Evaluator and LCAC implementation provide reference execution pipelines for this flow, backed by Redis and LCAC governance metadata when deployed in the full Atom Labs stack.
 
 ---
 
-# The RIS Scorecard
+# 7. Quick Entry Points
 
-All RIS evaluations produce a standardized, machine-readable scorecard containing:
+Use this portal to:
 
-- baseline metrics  
-- drift metrics  
-- variance distributions  
-- governance boundary compliance  
-- RIS level  
-- evidence paths  
-- metadata  
-- model descriptors  
-- evaluation provenance  
+- **Read the Standard**  
+  Use the left navigation to access Sections 0–13 (Levels, Controls, Methodology, Risk, Audit, Mapping).
 
-This format is designed for:
+- **Review Overview and Concepts**  
+  See the narrative introduction in  
+  _Overview → Reasoning Integrity Standard (RIS) — Overview_.
 
-- audits  
-- compliance filings  
-- risk assessments  
-- vendor comparison  
-- long-term monitoring  
+- **Explore Analytics**  
+  View sample and live evaluations under _Analytics_ → Reports, Leaderboard, Badges, and CII.
+
+- **Plan Integration**  
+  Use the API, SDK, and CICD integration guides to map RIS into your environment.
+
+- **Prepare for Certification** (v1.1+)  
+  Align with the RIS Certification Program, Conformance Statement, and Evaluation Report templates.
 
 ---
 
-# Analytics and Reports
+# 8. RIS + LCAC + Governor: Operational Path
 
-The RIS portal includes:
+In a full Atom Labs deployment, RIS connects to runtime systems as follows:
 
-### RIS Reports  
-Individual evaluation outputs generated by the RIS Evaluator.
+- **RIS Standard** defines the target behaviour and controls.  
+- **LCAC Evaluator** runs structured benchmark suites and stability tests.  
+- **LCAC Governor** watches model behaviour in production, using RIS-aware metrics and drift indicators.  
+- **Redis / telemetry layer** tracks key metrics and historical scorecard data.  
+- **RIS Portal** presents reports, leaderboards, and integrity trends.  
+- **Enterprise systems** (e.g., VANTA OS, Markets Intelligence, Executor Engine) can consume RIS levels and stability metrics as inputs to decision logic.
 
-### Leaderboard  
-Comparative reasoning integrity performance across models or releases.
-
-### Badges  
-RIS Level badges for documentation, product pages, and internal governance.
-
-### Cognitive Integrity Index (CII)  
-A longitudinal metric capturing model stability over time.
-
-These elements align RIS with enterprise-grade governance and model observability.
+This layout allows organizations to go from **benchmark** → **monitor** → **govern** with a single conceptual standard.
 
 ---
 
-# Integrations
+# 9. Who RIS Is For
 
-The RIS ecosystem supports:
+RIS is intended for:
 
-- Python SDK  
-- REST API  
-- CLI benchmark runner  
-- Multi-model evaluator  
-- Embedded evaluation within LCAC  
-- CI/CD integration  
-- Enterprise reasoning governance flows  
+- enterprise AI teams deploying LLMs and agentic systems  
+- governance, risk, and compliance functions  
+- safety and assurance organizations  
+- engineering and MLOps teams building cognitive infrastructure  
+- research labs studying reasoning drift and stability  
+- vendors seeking demonstrable reasoning guarantees  
+- regulators and auditors needing structured reasoning evidence  
 
-Documentation for each appears in the navigation.
-
----
-
-# Governance and Certification
-
-RIS includes:
-
-- a certification checklist  
-- evidence requirements  
-- auditor guidance  
-- conformance statement template  
-- evaluation schema  
-- attestation structure  
-- role delineation between model providers and evaluators  
-
-Certification enables:
-
-- regulatory alignment  
-- internal trust scoring  
-- vendor assessment  
-- contractual commitments  
+If reasoning instability has a cost, RIS creates a way to measure and mitigate it.
 
 ---
 
-# Vision and Roadmap
+# 10. Relationship to Existing Standards
 
-RIS is designed as the global standard for:
+RIS is explicitly designed to complement, not replace, existing frameworks:
 
-- long-horizon reasoning evaluations  
-- drift and stability observability  
-- cognitive governance  
-- cross-model auditability  
-- agentic system reliability  
-- AI quality of reasoning  
+- NIST SP 800-53 (security control baselines)  
+- ISO/IEC 27001 (information security management)  
+- SOC 2 (service organization controls)  
+- OWASP ASVS (application security verification)  
+- NIST AI RMF (AI risk management)  
+- EU AI Act (regulatory structure for AI systems)  
 
-Future releases will expand:
-
-- certification tiers  
-- formal risk domains  
-- evaluator interoperability  
-- multi-model governance  
-- real-time reasoning observability  
-- cross-standard mappings  
-- industry-wide registries of certified models  
-
-RIS is intended to be the **reference point for reasoning governance worldwide**.
+Those frameworks govern security, privacy, and general AI risk.  
+**RIS introduces a dedicated reasoning integrity layer.**
 
 ---
 
-# Citation
+# 11. How to Adopt RIS
 
-Reasoning Integrity Standard (RIS) v1.0  
+Typical adoption path:
+
+1. **Internal Analysis**  
+   Review the standard, levels, and measurement framework.
+
+2. **Pilot Evaluation**  
+   Run RIS evaluations against one or more internal systems using the benchmark guide and integration docs.
+
+3. **Establish Internal Targets**  
+   Define required RIS levels per use case (e.g., RIS-2 for low-impact, RIS-3 or RIS-4 for regulated workflows).
+
+4. **Integrate with Governance**  
+   Link RIS results with model registries, incident management, change management, and vendor review processes.
+
+5. **Continuous Evaluation**  
+   Extend RIS into CI/CD and runtime via LCAC and the Governor, including drift detection and long-horizon monitoring.
+
+6. **External Alignment and Certification** (optional)  
+   Engage with Atom Labs for RIS Certification, evidence review, and audit-grade scorecards.
+
+---
+
+# 12. Citation
+
+When citing RIS:
+
+**Reasoning Integrity Standard (RIS) v1.0**  
 Atom Labs, 2025  
 https://github.com/qstackfield/ris-standard
 
 ---
 
-# Contact
+# 13. Contact
 
-Atom Labs - Standards Division  
-Email: lcac@atomlabs.app  
-GitHub: https://github.com/qstackfield
+For collaboration, contributions, certification, or ecosystem integration:
+
+**Atom Labs - Standards Division**  
+Email: **RIS@atomlabs.app**  
+GitHub: **https://github.com/qstackfield**
 
 ---
