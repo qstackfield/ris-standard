@@ -1,0 +1,47 @@
+{
+  "run_id": "RUN-PG-F010A8DF6D54",
+  "run_tag": "playground",
+  "model_name": "alpha-test-model",
+  "input_file": "playground",
+  "started_at": "2025-11-19T21:47:45.305915Z",
+  "finished_at": "2025-11-19T21:47:45.305915Z",
+  "sample_count": 1,
+  "successful_evaluations": 1,
+  "evaluation_ids": [
+    "EV-F010A8DF6D54"
+  ],
+  "aggregate_metrics": {
+    "chain_stability_avg": 0.075,
+    "semantic_coherence_avg": 0.3333333333333333,
+    "drift_sensitivity_avg": 0.6046511627906976,
+    "variance_compliance_avg": 0.8888888888888888,
+    "composite_score_avg": 0.4754683462532299
+  },
+  "ris_level_distribution": {
+    "RIS-1": 1
+  },
+  "final_ris_level": "RIS-1",
+  "composite_score_avg": 0.4754683462532299,
+  "requested_ris_level": "",
+  "per_evaluation": [
+    {
+      "index": 1,
+      "evaluation_id": "EV-F010A8DF6D54",
+      "ris_level": "RIS-1",
+      "composite_score": 0.4754683462532299,
+      "metrics": {
+        "chain_stability": 0.075,
+        "semantic_coherence": 0.3333333333333333,
+        "drift_sensitivity": 0.6046511627906976,
+        "variance_compliance": 0.8888888888888888,
+        "boundary_violations": 0,
+        "sample_size": {
+          "baseline_prompts": 1,
+          "perturbation_prompts": 0,
+          "baseline_samples": 1,
+          "perturbation_samples": 0
+        }
+      }
+    }
+  ]
+}
