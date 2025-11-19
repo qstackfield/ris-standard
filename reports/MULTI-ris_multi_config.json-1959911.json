@@ -1,0 +1,17 @@
+{
+  "multi_run_id": "MULTI-ris_multi_config.json-1959911",
+  "config_path": "/root/ris_multi_config.json",
+  "started_at": "2025-11-18T17:01:20.566198Z",
+  "finished_at": "2025-11-18T17:01:20.686946Z",
+  "models": [
+    {
+      "model_name": "alpha-test-model",
+      "input_path": "/root/ris_test_samples.jsonl",
+      "run_tag": "alpha-multi-smoke",
+      "requested_ris_level": "RIS-3",
+      "run_id": "RUN-E39B22CC19C6",
+      "final_ris_level": "RIS-2",
+      "composite_score_avg": 0.7479
+    }
+  ]
+}
